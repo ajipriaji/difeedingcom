@@ -38,8 +38,9 @@
       <!-- Uncomment below if you prefer to use an image logo -->
       <a href="{{route('home')}}" class="logo mr-auto"><img src="{!! asset('assets/img/ic_logo_color@3x.png') !!}" alt="logo_difeeding"></a>
 
-      <nav class="nav-menu d-none d-lg-block">
+      <nav class="nav-menu d-lg-block">
         <ul>
+          <li></li>        
           <li><a href="{{ route('home') }}">Home</a></li>        
                 <?php
           
